@@ -15,7 +15,6 @@
 
 (function() {
   'use strict';
-
   var app = {
     isLoading: true,
     visibleCards: {},
@@ -26,7 +25,6 @@
     addDialog: document.querySelector('.dialog-container'),
     daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   };
-
 
   /*****************************************************************************
    *
@@ -361,5 +359,4 @@
              .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
-  
 })();
